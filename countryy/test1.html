@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        #tt {
+            
+            border: 1px solid black;
+            border-block-start-width: 1px;
+            border-collapse: collapse;
+            padding-inline: 150px;   
+         
+        }
+        #demo {
+            margin-top:40px;
+        }
+    #table{
+        width:20%;
+        height:50px;
+        padding: 30px;
+    }
+    body{
+        background-color:gray;
+    }
+    table, th, td {
+  border: 1px solid black;
+  padding:10px;
+}  
+    </style>
+<body>
+<h2>Choose a country name to find out it's capital</h2>
+<div id="demo">
+<select id="mySelect">
+<option value="" disabled selected>Choose a country</option><br>
+</select>
+<br><br>
+<div id="table">
+<table id="tt"></table><br><br><br><br>
+</div>
+<button type="submit" onclick="displayCapital()" id="demo"> Submit </button>
+</div>
+
+<script src="country.js"></script>
+
+</body>
+</html>

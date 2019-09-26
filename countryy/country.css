@@ -1,0 +1,23 @@
+#tt {
+            
+            border: 1px solid black;
+            border-block-start-width: 1px;
+            border-collapse: collapse;
+            padding-inline: 150px;   
+         
+        }
+        #demo {
+            margin-top:40px;
+        }
+    #table{
+        width:20%;
+        height:50px;
+        padding: 30px;
+    }
+    body{
+        background-color:gray;
+    }
+    table, th, td {
+  border: 1px solid black;
+  padding:10px;
+}  
